@@ -41,9 +41,8 @@ a{
 }
 
 #social{
-  position: absolute;
-  top: 0px;
   right:50px;
+  position: absolute;
 }
 
 button{
@@ -60,9 +59,7 @@ button{
 button:hover{
   opacity: 50%;
 }
-.hero{
-    display: inline;
-}
+
 .disMe{
     height: 400px;
     width:400px;
