@@ -1,0 +1,118 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+    color: #2a5ac6;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 150%;
+}
+
+a{
+    color: black;
+}
+
+.hero{
+  position: relative;
+}
+
+#social{
+  position: absolute;
+  top: 0px;
+  right:50px;
+}
+
+button{
+  background-color:#2a5ac6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;margin-left: 120px;
+}
+
+button:hover{
+  opacity: 50%;
+}
+.hero{
+    display: inline;
+}
+.disMe{
+    height: 400px;
+    width:400px;
+    max-height: 600px;
+    float:right;
+    padding: 50px;
+    object-fit: cover;
+}
+
+
+img.arrows{
+    height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+ul{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 180%;
+    width: 1000px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 90px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+  }
+
+  .fa:hover{
+      opacity: 0.5;
+  }
